@@ -5,6 +5,7 @@ Criação de um protótipo simples de chatbot como um sistema de conversação
 para auxiliar as pessoas durante esse período de crise vivído na pandemia.
 
 Feito para a disciplina de Processamento de Linguagem Natural (PLN) na UFABC.
+
 Para mais informações, acesse o arquivo 'report.pdf' dentro da pasta 'docs'.
 
 ## Preparação
