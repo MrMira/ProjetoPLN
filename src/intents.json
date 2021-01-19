@@ -1,0 +1,89 @@
+{
+  "default": [
+    {
+      "category": "unknown",
+      "response": {
+        "initial": [
+          "Não entendi o que você disse.",
+          "Poderia repetir de outra forma?"
+        ]
+      }
+    }
+  ],
+  "intents": [
+    {
+      "category": "psychological",
+      "patterns": [
+        "Não me sinto bem mentalmente.",
+        "Preciso de um psicólogo.",
+        "Preciso de atendimento psicológico.",
+        "Me sinto triste e cansado."
+      ],
+      "response": {
+        "initial": [
+          "Receba atendimento online e gratuito:",
+          "Confira o seguinte recursos online:"
+        ],
+        "options": [
+          "https://bem.care/covidzero/",
+          "http://www.ip.usp.br/site/servicos-a-comunidade/",
+          "https://www.uvv.br/2020/04/08/atendimento-psicologico-gratuito-e-online/",
+          "https://www.uninove.br/uninove-tem-atendimento-psicologico-gratuito/"
+        ]
+      }
+    },
+    {
+      "category": "covid19-symptoms",
+      "patterns": [
+        "Estou com sintomas de COVID-19.",
+        "Estou com COVID-19.",
+        "Preciso de atendimento para COVID-19.",
+        "Me sinto mal."
+      ],
+      "response": {
+        "initial": [
+          "Postos de atendimento, hospitais e hospitais de campanha:",
+          "Para informações de como se tratar:"
+        ],
+        "options": [
+          "http://www.saopaulo.sp.leg.br/coronavirus/o-que-fazer-ao-apresentar-sintomas/"
+        ]
+      }
+    },
+    {
+      "category": "information",
+      "patterns": [
+        "Quero informações sobre o COVID-19.",
+        "Estou com uma dúvida.",
+        "Quero tirar uma dúvida."
+      ],
+      "response": {
+        "initial": [
+          "Canal de informações sobre COVID-19 do governo de SP:"
+        ],
+        "options": [
+          "Site: https://coronavirus.saude.gov.br/",
+          "WhatsApp: +55 11 95220-2923"
+        ]
+      }
+    },
+    {
+      "category": "social-assistance",
+      "patterns": [
+        "Preciso de assistência social.",
+        "Quero assistência social.",
+        "Preciso de um assistente social.",
+        "Estou sendo abusada",
+        "Estou sofrendo violência doméstica"
+      ],
+      "response": {
+        "initial": [
+          "Informações sobre assistência social no link:"
+        ],
+        "options": [
+          "http://mds.gov.br/assuntos/assistencia-social/o-que-e"
+        ]
+      }
+    }
+  ]
+}
